@@ -113,13 +113,6 @@
 	color:  inherit;
 }
 
-.footer-distributed .footer-company-name{
-	color:  #8f9296;
-	font-size: 14px;
-	font-weight: normal;
-	margin: 0;
-}
-
 /* Footer Center */
 
 .footer-distributed .footer-center{
@@ -205,6 +198,20 @@
 
 	margin-right: 3px;
 	margin-bottom: 5px;
+}
+
+.mini-footer {
+	width: 100%;
+	border-top: #ffffff 2px solid;
+}
+
+.mini-footer .left {
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	padding-left: 50px;
+	border-top: #ffffff 2px solid;
+	background:  rgb(34,34,34);
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */

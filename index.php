@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>mip media</title>
+    <title>mipmedia</title>
     <!--ukljucujemo angularjs biblioteku-->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular.min.js"></script>
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular-route.js"></script>
@@ -45,10 +45,14 @@
 
                 <div class="collapse navbar-collapse" id="navbar-collapse-3">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#/">Home</a></li>
-                        <li><a href="#/offers">Offers</a></li>
-                        <li><a href="#/about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#/">Home</a>
+                        </li>
+                        <li><a href="#/offers">Offers</a>
+                        </li>
+                        <li><a href="#/about">About</a>
+                        </li>
+                        <li><a href="#contact">Contact</a>
+                        </li>
                 </div>
             </div>
         </nav>
@@ -65,22 +69,19 @@
             <h3>Company<span>logo</span></h3>
 
             <p class="footer-links">
-                <a href="#">Home</a> ·
-                <a href="#">Blog</a> ·
-                <a href="#">Pricing</a> ·
-                <a href="#">About</a> ·
-                <a href="#">Faq</a> ·
-                <a href="#">Contact</a>
+                <a href="#/">Home</a> ·
+                <a href="#/offers">Offers</a> ·
+                <a href="#/about">About</a> ·
+                <a href="#/contact">Contact</a>
             </p>
 
-            <p class="footer-company-name">Company Name &copy; 2015</p>
         </div>
 
         <div class="footer-center">
 
             <div>
                 <i class="fa fa-map-marker"></i>
-                <p><span>21 Revolution Street</span> Paris, France</p>
+                <p><span>Kulina bana</span> 76300 Bijeljina</p>
             </div>
 
             <div>
@@ -90,7 +91,8 @@
 
             <div>
                 <i class="fa fa-envelope"></i>
-                <p><a href="mailto:support@company.com">support@company.com</a></p>
+                <p><a href="mailto:support@company.com">support@mipmedia.com</a>
+                </p>
             </div>
 
         </div>
@@ -112,7 +114,14 @@
 
         </div>
 
+
+
     </footer>
+
+    <div class="mini-footer">
+        <p class="left">mipmedia &copy; Copyright 2017 Sva prava zadržana.</p>
+        <p class="right"></p>
+    </div>
 
 </body>
 
