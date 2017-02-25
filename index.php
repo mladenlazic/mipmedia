@@ -9,6 +9,7 @@
     <!--ukljucujemo angularjs biblioteku-->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular.min.js"></script>
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular-route.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA1b-kr4MkIRXPTnyWuBnfcwCMx3SDlm38"></script>
 
     <script type="text/javascript" src="mipmedia.js"></script>
     <script type="text/javascript" src="controller/offersController.js"></script>
@@ -40,7 +41,9 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">MIPMEDIA</a>
+                    <a class="navbar-brand" href="#/">
+                        <span style="color:rgb(230,30,35)"><\></span> <span style="color:white; font-family: 'Courier New'">MIPMEDIA</span>
+                    </a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="navbar-collapse-3">

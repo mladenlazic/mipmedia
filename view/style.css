@@ -1,6 +1,7 @@
 .navbar-brand {
     position: relative;
     z-index: 2;
+
 }
 .navbar-nav.navbar-right .btn {
     position: relative;
@@ -32,6 +33,10 @@
 .navbar .nav-collapse .navbar-form {
     border-width: 0;
     box-shadow: none;
+}
+.navbar-inverse
+{
+	border-bottom: 3px rgb(230,30,35) solid;
 }
 .nav-collapse>li {
     float: right;
@@ -70,7 +75,6 @@
 	font: bold 16px sans-serif;
 
 	padding: 55px 50px;
-	margin-top: 80px;
 }
 
 .footer-distributed .footer-left,
@@ -213,7 +217,9 @@
 	border-top: #ffffff 2px solid;
 	background:  rgb(34,34,34);
 }
-
+.footer-distributed{
+		border-top: 3px rgb(230,30,35) solid;
+	}
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
@@ -227,7 +233,6 @@
 	.footer-distributed .footer-right{
 		display: block;
 		width: 100%;
-		margin-bottom: 40px;
 		text-align: center;
 	}
 
@@ -236,5 +241,71 @@
 	}
 
 }
+#contact_logo
+{
+	background: url("../pictures/contact_us.jpg"); 
+	height: 200px;
+	background-repeat:no-repeat;
+	margin: auto;
+}
 
+#basic_div_contact
+{
+	background-color: rgb(230,230,230);
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-right: 20px;
+}
+.contact_button
+{
+	background-color: transparent;
+    background-repeat:no-repeat;
+    border: 1px white solid;
+    color:white;
+    border-radius: 2px;
+    width: 140px;
+    height: 40px;
+    margin-top: 150px;
+    margin-right: 10px;
 
+}
+
+.contact_button:hover, .contact_button:focus, .contact_button:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+}
+
+#map{
+    height:315px;    
+    }
+#repeat{ 
+     display: inline;
+     }
+#country_container { 
+     margin: 8px 2px 2px 0px; 
+     text-align: center; 
+     width: 90px; 
+     padding: 5px; 
+     color: white; 
+     background-color: gray; 
+     font-size: 16px; 
+     cursor: pointer;
+     }
+#country_container:hover { 
+     box-shadow: 0px 0px 10px blue;
+     background-color: gray; 
+     border: 1px solid gray; 
+     cursor: pointer; 
+     }
+#names { 
+     cursor: pointer; 
+       }
+legend.contact {
+    border-bottom: 1px rgb(62,121,68) solid;
+    color: rgb(62,121,68);
+}
+
+legend.location {
+    border-bottom: 1px rgb(59,89,152) solid;
+    color: rgb(59,89,152);
+}
